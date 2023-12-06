@@ -1,0 +1,18 @@
+# Estudo do dia 23/11/2023 as 21:00
+# comando para criar um modulo em go: go mod init modulo
+# Função do modulo: separa os pacotes e bibliotecas em um só pacote.
+# Comando para criar a build do projeto: go build
+
+# Observação: No go não existe as palavras reservadas como public, private e protected
+# é usado a primeira letra da função ou variável começar com a letra minuscula só é 
+# acessível dentro da classe, se começar com letra maiuscula pode ser importada para 
+# outra classe.
+
+# comando para importar um pacote externo: go get github.com/badoux/checkmail
+# comando: go mod tidy -> remove todas as dependencias que não estão sendo usadas 
+#-------------------------------------------------------------------------------------
+# Estudo do dia 26/11/2023 as 16:55
+#go é uma linguagem estaticamente forte
+# existe duas formas de declar váriavel no go: modo explicito e modo implicido
+# var nome string = "welliton" -> modo explicito
+# nome := "Welliton" -> inferência de tipo modo implicido
