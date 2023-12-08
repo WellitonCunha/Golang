@@ -27,7 +27,7 @@ func diaDaSemana2(numero int) string {
 	switch {
 	case numero == 1:
 		return "Dmingo"
-		fallthrough // ele obriga a condição pular para o proximo case direto no return
+		//fallthrough // ele obriga a condição pular para o proximo case direto no return
 		// nesse caso especifico não vai pular porque o return encerra aplicação mas se
 		// fosse variavel passava tranquilamente
 	case numero == 2:
