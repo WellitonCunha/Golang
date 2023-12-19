@@ -2,6 +2,7 @@ package enderecos
 
 import "testing"
 
+// Teste Unitários
 func TestTipoDeEndereco(t *testing.T) {
 	enderecoParaTeste := "Avenida Paulista"
 	tipoDeEnderecoEsperado := "Avenida"
